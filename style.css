@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 2em;
+	height: 100vh;
+	font-family: 'Open Sans', sans-serif;
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(91,46,150,0.7192575406032482) 100%);
+}
+
+.box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 600px;
+	min-height: 200px;
+	padding: 30px;
+	border-radius: 8px;
+	background-color: rgba(123, 50, 219, 0.719);
+}
+
+.fun-fact {
+    margin-top: 20px;
+}
